@@ -1,0 +1,48 @@
+@keyframes color-change {
+    0% {
+      color: white;
+    }
+  
+    50% {
+      color: black;
+    }
+  
+    100% {
+      color: red;
+    }
+}
+
+h1 {
+    animation: color-change 10s infinite;
+}
+
+@keyframes background-color-change {
+    0% {
+      background-color: blue;
+    }
+  
+    50% {
+      background-color: rgb(226, 125, 125);
+    }
+  
+    90% {
+      background-color: blue;
+    }
+    100% {
+        background-color: rgb(10, 83, 38);
+      }
+}
+
+
+
+
+body {
+    font-family: "Inter",  sans-serif; /* Семейство шрифтов */
+    font-size: 30px; /* Размер основного шрифта в <p></p>  */
+    animation: background-color-change 3s infinite;
+}
+h1 {
+    color:#5e7a5a ; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
